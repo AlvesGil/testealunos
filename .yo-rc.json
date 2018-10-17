@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "testealunos",
+    "packageName": "br.ufpa.testealunos",
+    "packageFolder": "br/ufpa/testealunos",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.5.0",
+    "jwtSecretKey": "OWQ3NzkwYWM1YjZiM2ZjMmYwZDQyMjc5NWQ5Y2NlMWFlZTY2MGE5OWExMThkNzIzN2ZiMzk2MTQ3OTRhYzQ3N2FlZjA4OGVhMjZlZThhYWVlODkxOTg0N2Y1NTQ5ZDQzNzA0Y2UyMDg5MWE4MzYxYWE4ODgzYzU4NmQ4YTQzYTY="
+  },
+  "git-provider": "GitHub",
+  "git-company": "AlvesGil",
+  "repository-name": "testealunos"
+}
