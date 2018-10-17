@@ -1,0 +1,20 @@
+entity Aluno{
+nome String,
+idade Integer
+}
+
+entity Turma{
+nome String,
+cod String,
+tipo TipoTurma
+}
+
+enum TipoTurma{
+BASICO,
+MEDIO,
+SUPERIOR
+}
+
+relationship ManyToMany{
+	Aluno{turmas} to Turma{alunos}
+}

@@ -1,0 +1,36 @@
+{
+    "name": "Turma",
+    "fields": [
+        {
+            "fieldName": "nome",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "cod",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tipo",
+            "fieldType": "TipoTurma",
+            "fieldValues": "BASICO,MEDIO,SUPERIOR"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-many",
+            "relationshipName": "alunos",
+            "otherEntityName": "aluno",
+            "ownerSide": false,
+            "otherEntityRelationshipName": "turmas"
+        }
+    ],
+    "changelogDate": "20181017224606",
+    "entityTableName": "turma",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}
