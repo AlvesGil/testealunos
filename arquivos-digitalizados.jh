@@ -1,0 +1,33 @@
+
+entity Propietario{
+imovel String,
+nome String,
+idt Integer,
+cpf Integer,
+end String,
+
+}
+
+entity Locatario{
+nome String,
+end String
+idt Integer,
+cpf Integer,
+
+}
+
+entity Aluguel{
+ficha resumida String,
+contrato de locacao String,
+termo aditivo String,
+rendimentos String,
+taxa de condominio String,
+luz String,
+agua String,
+iptu String,
+
+}
+
+relationship ManyToMany{
+	Locatario{aluguel} to Aluguel{locatario}
+}
